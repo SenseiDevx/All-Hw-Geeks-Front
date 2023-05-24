@@ -1,0 +1,25 @@
+body {
+    height: 100vh;
+    background-color: #469df0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonsBlock {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+button {
+    width: 150px;
+    height: 150px;
+    font-size: 30px;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius:  20%;
+    transition: 0.5s;
+}
+button:hover {
+    transform: rotate(360deg) scale(0.9);
+    border-radius: 50%;
+}

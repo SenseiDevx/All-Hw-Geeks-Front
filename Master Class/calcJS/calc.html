@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="number" id="num1">
+        <div class="buttonsBlock">
+            <button id="plus" class="button" onclick="op='+'">+</button>
+            <button id="minus" class="button" onclick="op='-'">-</button>
+            <button id="times" class="button" onclick="op='*'">X</button>
+            <button id="divide" class="button" onclick="op='/'">:</button>
+        </div>
+        <input type="number" id="num2">
+        <button class="resultBtn" onclick="func()">Посчитать</button>
+        <p id="result" class="result"></p>
+    </div>
+</body>
+<script src="calc.js"></script>
+</html>
