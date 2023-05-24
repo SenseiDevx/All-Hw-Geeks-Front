@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        input[type="number"] {
+            padding: 5px;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            padding: 5px 20px;
+            font-size: 16px;
+            background-color: #008CBA;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<h1>Калькулятор</h1>
+<form id="calculator">
+    <label>Первое число:</label>
+    <input type="number" id="num1" name="num1">
+    <label>Второе число:</label>
+    <input type="number" id="num2" name="num2">
+    <label>Операция:</label>
+    <select id="operator" name="operator">
+        <option value="+">Сложение</option>
+        <option value="-">Вычитание</option>
+        <option value="*">Умножение</option>
+        <option value="/">Деление</option>
+    </select>
+    <input type="submit" value="Вычислить">
+</form>
+<div id="result"></div>
+
+<div>
+    <h3>Загадка 1</h3>
+    <p>Какой лес боятся все звери?</p>
+    <button class="show-answer-button">Показать ответ</button>
+    <p class="answer hidden">Буквенный лес</p>
+</div>
+<div>
+    <h3>Загадка 2</h3>
+    <p>Что может быть принято, но не даваться?</p>
+    <button class="show-answer-button">Показать ответ</button>
+    <p class="answer hidden">Решение</p>
+</div>
+
+  <div>
+    <h3>Загадка 3</h3>
+    <p>На раскрашенных страницах
+        Много праздников хранится.</p>
+    <button class="show-answer-button">Показать ответ</button>
+    <p class="answer hidden">Календарь</p>
+</div>
+<div>
+    <h3>Загадка 4</h3>
+    <p>Не трогайте меня:
+        Обожгу и без огня!</p>
+    <button class="show-answer-button">Показать ответ</button>
+    <p class="answer hidden">Крапива</p>
+</div>
+<div>
+    <h3>Загадка 5</h3>
+    <p>Нет ушей, а слышит.
+        Нету рук, а пишет.</p>
+    <button class="show-answer-button">Показать ответ</button>
+    <p class="answer hidden">Магнитофон</p>
+</div>
+<div>
+    <h3>Загадка 6</h3>
+    <p>Над нами кверху ногами.</p>
+    <button class="show-answer-button">Показать ответ</button>
+    <p class="answer hidden">Таракан</p>
+</div>
+
+</body>
+<script src="app.js"></script>
+</html>
